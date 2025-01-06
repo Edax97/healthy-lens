@@ -1,0 +1,33 @@
+{
+  "feed": [
+    {
+      "post": {
+        "uri": "string",
+        "cid": "string",
+        "author": {
+          "did": "string",
+          "handle": "string",
+          "displayName": "",
+          "avatar": "string",
+          "labels": [],
+          "createdAt": ""
+        },
+        "record": {
+          "$type": "string",
+          "createdAt": "string",
+          "facets": [],
+          "langs": [
+            "en"
+          ],
+          "text": "string"
+        },
+        "replyCount": 0,
+        "repostCount": 0,
+        "likeCount": 0,
+        "quoteCount": 0,
+        "indexedAt": "string",
+        "labels": []
+      }
+    }
+  ]
+}
