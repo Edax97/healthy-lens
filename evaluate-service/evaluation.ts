@@ -1,6 +1,7 @@
-import {api} from "encore.dev/api";
-import {Claim, mapClaims} from "../posts-service/claim";
+import { api } from "encore.dev/api";
+import {mapClaims} from "../posts-service/claim";
 import {Userpage} from "../posts-service/user-scrapper";
+import {agentEvaluate} from "./agent-pipechain";
 
 interface GetEvalArgs{
     user: string;
@@ -32,17 +33,19 @@ export const getEval = api<GetEvalArgs, GetEvalRes>(
     async ({user}) => {
         const userPage = await searchUser(user);
         const {claims} = await mapClaims(userPage);
-        const evaluatedClaims: EvalClaim[] = claims.map(claim => {
-            return {
-                claim: claim.affirmation,
-                topic: claim.topic,
-                date: claim.date,
+        const evaluatedClaims: EvalClaim[] = [];
+        for (const {affirmation, topic, date} of claims) {
+            const agentAnswer = await agentEvaluate(affirmation, topic);
+            evaluatedClaims.push({
+                claim: affirmation,
+                topic,
+                date,
                 label: 'Verified',
-                assessment: 'Its correct, as Its said in [1] and [2]',
+                assessment: agentAnswer,
                 evalQuality: 85,
                 score: 'A+'
-            }
-        });
+            })
+        }
         return {evaluatedClaims};
     }
 )
