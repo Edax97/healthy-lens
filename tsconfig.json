@@ -7,7 +7,7 @@
     "module": "ES2022",
     "types": ["node"],
     "paths": {
-      "~encore/*": ["./encore.gen/*"]
+      "~encore/*": ["./encore.gen/*"],
     },
 
     /* Workspace Settings */
@@ -19,6 +19,8 @@
     /* Module Resolution Options */
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
+    "resolvePackageJsonImports": true,
+    "disableSourceOfProjectReferenceRedirect": false,
     "isolatedModules": true,
     "sourceMap": true,
 

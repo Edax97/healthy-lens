@@ -7,17 +7,24 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.5.7",
-    "typescript": "^5.2.2"
+    "prettier": "^3.4.2",
+    "typescript": "^5.2.2",
+    "xml": "^1.0.1",
+    "xml2js": "^0.6.2"
   },
   "dependencies": {
-    "@google-cloud/storage": "^7.14.0",
+    "@google-cloud/storage": "^7.15.0",
     "@google-cloud/vertexai": "^1.9.2",
+    "@langchain/community": "^0.3.22",
     "@langchain/core": "^0.3.27",
     "@langchain/google-vertexai": "^0.1.6",
     "@langchain/langgraph": "^0.2.39",
+    "@types/camaro": "^2.2.8",
+    "camaro": "^6.2.3",
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.7",
     "encore.dev": "^1.45.1",
+    "google-auth-library": "^9.15.0",
     "langchain": "^0.3.9",
     "node-html-parser": "^7.0.1"
   }
