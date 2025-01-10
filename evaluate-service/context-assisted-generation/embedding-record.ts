@@ -1,8 +1,11 @@
 import {OpenAIEmbeddings} from "@langchain/openai";
 import {PineconeStore} from "@langchain/pinecone";
 import {Pinecone} from "@pinecone-database/pinecone";
+import {config} from "dotenv";
 import {parseXMLtoDocument} from "./parse-xml";
 import {api} from "encore.dev/api";
+
+config();
 
 interface Record {
     id: string;
@@ -19,10 +22,9 @@ const embeddings = new OpenAIEmbeddings({
     model: "text-embedding-3-small",
     batchSize: 2048
 });
-
 const pine = new Pinecone();
 const pineconeIndex = pine.Index(process.env.PINECONE_INDEX!);
-const vectorStore = await PineconeStore.fromExistingIndex(embeddings, {
+export const vectorStore = await PineconeStore.fromExistingIndex(embeddings, {
     pineconeIndex,
     maxConcurrency: 6
 })

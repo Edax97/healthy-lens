@@ -1,0 +1,1158 @@
+{
+  "version1": 2,
+  "version": 6.9,
+  "hitCount": 7580,
+  "nextCursorMark": "ADAOD",
+  "nextPageUrl": "csacda",
+  "request": {
+    "queryString": "hello",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize":  5,
+    "sort": "",
+    "synonym": true
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "PPR932234",
+        "source": "PPR",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR932234"
+          ]
+        },
+        "doi": "10.1101/2024.10.29.620824",
+        "title": "Novel hepatocyte-like liver organoids recapitulate crucial mature hepatic functions",
+        "authorString": "Ardisasmita AI, Joore IP, Levy N, Myszczyszyn A, Marsee A, Sinnige T, Ruiter J, Ferdinandusse S, Dudaryeva O, Gruber E, Daive V, Levato R, Spee B, Verstegen M, van der Laan L, Nieuwenhuis EES, Schene IF, Fuchs SA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ardisasmita AI",
+              "lastName": "Ardisasmita",
+              "initials": "AI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Metabolic Diseases, , , Lundlaan 6 , , ,"
+                  },
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Joore IP",
+              "lastName": "Joore",
+              "initials": "IP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Metabolic Diseases, , , Lundlaan 6 , , ,"
+                  },
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Levy N",
+              "lastName": "Levy",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Metabolic Diseases, , , Lundlaan 6 , , ,"
+                  },
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Myszczyszyn A",
+              "lastName": "Myszczyszyn",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  },
+                  {
+                    "affiliation": "Department of Clinical Sciences, Faculty of Veterinary Medicine, , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Marsee A",
+              "lastName": "Marsee",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  },
+                  {
+                    "affiliation": "Department of Clinical Sciences, Faculty of Veterinary Medicine, , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sinnige T",
+              "lastName": "Sinnige",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute for Risk Assessment Sciences, , 3584 CM ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ruiter J",
+              "lastName": "Ruiter",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory Genetic Metabolic Diseases, , , Department of Clinical Chemistry, Amsterdam Gastroenterology Endocrinology Metabolism, Meibergdreef 9 , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ferdinandusse S",
+              "lastName": "Ferdinandusse",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory Genetic Metabolic Diseases, , , Department of Clinical Chemistry, Amsterdam Gastroenterology Endocrinology Metabolism, Meibergdreef 9 , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dudaryeva O",
+              "lastName": "Dudaryeva",
+              "initials": "O",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  },
+                  {
+                    "affiliation": "Department of Orthopaedics, , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gruber E",
+              "lastName": "Gruber",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Daive V",
+              "lastName": "Daive",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Levato R",
+              "lastName": "Levato",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  },
+                  {
+                    "affiliation": "Department of Orthopaedics, , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Spee B",
+              "lastName": "Spee",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  },
+                  {
+                    "affiliation": "Department of Clinical Sciences, Faculty of Veterinary Medicine, , ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Verstegen M",
+              "firstName": "M.M.A.",
+              "lastName": "Verstegen",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", University Medical Center Rotterdam, Department of Surgery, ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "van der Laan L",
+              "firstName": "L.J.W.",
+              "lastName": "van der Laan",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": ", University Medical Center Rotterdam, Department of Surgery, ,"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nieuwenhuis EES",
+              "lastName": "Nieuwenhuis",
+              "initials": "EES",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Erasmus MC Rare Diseases Center, University Medical Center Rotterdam, Rotterdam, the Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schene IF",
+              "lastName": "Schene",
+              "initials": "IF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Metabolic Diseases, , , Lundlaan 6 , , ,"
+                  },
+                  {
+                    "affiliation": "Regenerative Medicine Center Utrecht, Uppsalalaan 8, 3584 CT, Utrecht, The Netherlands"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fuchs SA",
+              "lastName": "Fuchs",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Metabolic Diseases, , , Lundlaan 6 , , ,"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "pubYear": "2024",
+        "abstractText": "Accurate liver disease modeling and drug toxicity testing still remain challenging as liver cells in vitro poorly resemble adult hepatocytes, as we previously demonstrated using whole transcriptome and cell identity analysis. To address this, we used our insights into hepatic modeling to develop hepatocyte-like liver organoids (HeLLOs), a novel human organoid model with mature hepatocyte functions superior to existing models. HeLLOs are easily established from (small) healthy or diseased liver tissues and rapidly expanded for an extended period in optimized culture conditions. Transcriptomic and functional analyses revealed that differentiated HeLLOs closely resemble fresh primary human hepatocytes (PHHs) and perform key hepatic functions such as gluconeogenesis, drug metabolism, and bile acid synthesis. We developed a HeLLO-based toxicity assay with higher sensitivity in predicting liver toxicity of known liver-toxic drugs compared to the gold-standard PHHs. By modeling disease-related mechanisms, such as bile acid transport, HeLLOs uncover transport-inhibition toxicity mechanisms of known liver toxic drugs. Single cell sequencing analysis of HeLLOs identified a heterogeneous cluster of cells with cholangiocyte-like and hepatocyte-like cells, overall resembling liver regenerative cells. As such, HeLLOs hold great promise for advancing liver disease modeling and drug testing. To our knowledge, HeLLOs are the best expandable liver model for predicting adverse drug reactions as well as modeling various liver disease mechanisms.",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2024
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2024.10.29.620824"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR932234"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR932234&type=FILE&fileName=EMS199769-pdf.pdf&mimeType=application/pdf"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by-nd",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "Y",
+        "nihAuthMan": "N",
+        "manuscriptId": "EMS199769",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-10-31",
+        "firstIndexDate": "2024-10-31",
+        "fullTextReceivedDate": "2024-11-07",
+        "firstPublicationDate": "2024-10-29"
+      },
+      {
+        "id": "39671924",
+        "source": "MED",
+        "pmid": "39671924",
+        "doi": "10.1016/j.scitotenv.2024.177771",
+        "title": "Sources of polychlorinated dibenzo-p-dioxins and -furans to sediment in the Newtown Creek Superfund Site.",
+        "authorString": "Chitsaz M, Al Hello M, Burris DR, Francisco KL, Rodenburg LA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chitsaz M",
+              "firstName": "Mahdi",
+              "lastName": "Chitsaz",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Science, Rutgers, the State University of New Jersey, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al Hello M",
+              "firstName": "Mohson",
+              "lastName": "Al Hello",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Science, Rutgers, the State University of New Jersey, United States of America; Marine Sciences Center, University of Basrah, Iraq."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Burris DR",
+              "firstName": "David R",
+              "lastName": "Burris",
+              "initials": "DR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Crooked Creek Environmental, Panama City, FL, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Francisco KL",
+              "firstName": "Kelly L",
+              "lastName": "Francisco",
+              "initials": "KL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Science, Rutgers, the State University of New Jersey, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rodenburg LA",
+              "firstName": "Lisa A",
+              "lastName": "Rodenburg",
+              "initials": "LA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Environmental Science, Rutgers, the State University of New Jersey, United States of America. Electronic address: rodenburg@envsci.rutgers.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "958",
+          "journalIssueId": 3865972,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-12-01",
+          "journal": {
+            "title": "The Science of the total environment",
+            "medlineAbbreviation": "Sci Total Environ",
+            "essn": "1879-1026",
+            "issn": "0048-9697",
+            "isoabbreviation": "Sci Total Environ",
+            "nlmid": "0330500"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "177771",
+        "abstractText": "Polychlorinated dibenzo-p-dioxins and -furans (PCDD/Fs) are contaminants of concern in the New York/New Jersey Harbor and in the organisms of the Newtown Creek Superfund site, which lies within the harbor. Because PCDD/Fs are never intentionally produced, identifying their sources can be challenging. In this work, sources of PCDD/Fs to the sediment of Newtown Creek were investigated using Positive Matrix Factorization (PMF) to analyze two data sets containing data on concentrations of (1) PCDD/Fs and (2) PCDD/Fs plus polychlorinated biphenyls (PCBs). The PCDD/F data set generated eight factors, but they were not particularly helpful in identifying PCDD/F sources. The combined PCDD/F plus PCB data set generated eleven factors, many of which represented Aroclors. Based on its spatial distribution, the primary source of PCDD/F-related Toxic Equivalency Quotient (TEQ) in the sediment (accounting for 53 % of total TEQ) may be related to a facility that performed smelting and refining of metals (primarily copper). Aroclors appear to be responsible for about 20 % of the total TEQ. This analysis revealed two additional secondary sources of PCDD/Fs to Newtown Creek sediment: the East River (3 % of TEQ) and Combined Sewer Outfalls (CSOs; 0.5 % of TEQ). The East River was responsible for most of the mass of 2,3,7,8-tetrachloro dibenzo-p-dioxin (TCDD) in the sediment, presumably because it transports TCDD-laden sediment from the Passaic River into Newtown Creek. CSOs were proportionately more important in surface sediments. Adding PCBs to the data matrix appears to increase ability of the PMF analysis to identify both primary (Aroclors) and secondary (CSOs, East River) PCDD/F sources, but it is unclear whether it may overstate the fraction of PCDD/Fs arising from Aroclors.",
+        "affiliation": "Department of Environmental Science, Rutgers, the State University of New Jersey, United States of America.",
+        "publicationStatus": "aheadofprint",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "The Higher Committee for Education Development in Iraq",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Higher Education and Scientific Research",
+              "orderIn": 0
+            },
+            {
+              "agency": "Hudson River Foundation",
+              "orderIn": 0
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.scitotenv.2024.177771"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by-nc",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-12-13",
+        "firstIndexDate": "2024-12-15",
+        "dateOfRevision": "2024-12-13",
+        "electronicPublicationDate": "2024-12-12",
+        "firstPublicationDate": "2024-12-12"
+      },
+      {
+        "id": "39636784",
+        "source": "MED",
+        "pmid": "39636784",
+        "doi": "10.1024/0301-1526/a001149",
+        "title": "Spontaneous walking characteristics of patients with peripheral arterial disease.",
+        "authorString": "Heizmann AN, Morel A, Boissier C, Le Hello C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Heizmann AN",
+              "firstName": "Anne-Noëlle",
+              "lastName": "Heizmann",
+              "initials": "AN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2895-4530"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "INSERM, U1059-SAINBIOSE, Université Jean Monnet, Mines Saint-Étienne, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morel A",
+              "firstName": "Antoine",
+              "lastName": "Morel",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Département de Médecine Vasculaire et Thérapeutique, Centre Hospitalier Universitaire, Saint-Étienne, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boissier C",
+              "firstName": "Christian",
+              "lastName": "Boissier",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Département de Médecine Vasculaire et Thérapeutique, Centre Hospitalier Universitaire, Saint-Étienne, France."
+                  },
+                  {
+                    "affiliation": "Campus Santé et Innovations, Université Jean Monnet, Saint-Priest-en-Jarez, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Le Hello C",
+              "firstName": "Claire",
+              "lastName": "Le Hello",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "INSERM, U1059-SAINBIOSE, Université Jean Monnet, Mines Saint-Étienne, France."
+                  },
+                  {
+                    "affiliation": "Département de Médecine Vasculaire et Thérapeutique, Centre Hospitalier Universitaire, Saint-Étienne, France."
+                  },
+                  {
+                    "affiliation": "Campus Santé et Innovations, Université Jean Monnet, Saint-Priest-en-Jarez, France."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2895-4530"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "54",
+          "journalIssueId": 3881045,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "printPublicationDate": "2025-01-01",
+          "journal": {
+            "title": "VASA. Zeitschrift fur Gefasskrankheiten",
+            "medlineAbbreviation": "Vasa",
+            "essn": "1664-2872",
+            "issn": "0301-1526",
+            "isoabbreviation": "Vasa",
+            "nlmid": "0317051"
+          }
+        },
+        "pubYear": "2025",
+        "pageInfo": "20-26",
+        "abstractText": "<i>Background:</i> Walking rehabilitation is the cornerstone of patients with peripheral arterial disease (PAD) treatment. In order to propose a personalised walking rehabilitation program to each patient, it is important to know the PAD-patients walking characteristics. Such data are lacking in the literature. The aim of this study was to analyse the spontaneous walking characteristics of PAD patients. <i>Patients and methods:</i> This study was conducted between May 2016 and March 2018. Walking characteristics (cadence, stride, number of daily walking episodes, duration of an episode, distance covered during an episode, daily total walking duration and distance, walking speed) were recorded by Withings Pulse O2® activity trackers for one week in patients with asymptomatic or symptomatic PAD. Walking intensity was classified as ambling pace (<2 METs), slow walking (2-3 METs) and active walking (>3 METs). Study protocol has been approved by an independent ethics committee. <i>Results:</i> Eighty-seven patients were included (males 87%, mean age 66 ± 9 years, intermittent claudication 86%, right ankle brachial index (ABI) = 0.80 ± 0.19 and left ABI = 0.79 ± 0.15). The mean recording duration was 8 ± 1.2 days. Most of the steps were shuffling pace (shuffling pace 55.7%, active walking 32.8%, slow walking 11.5%). There was no significant difference between weekdays and weekend days nor for cadence, stride, episode duration, distance covered during an episode, number of daily walking episodes, daily total walking duration and distance. The average duration of active walking episodes was 3 minutes. Duration of active walking was less than 3 minutes in 66% of patients with a mean duration of 1 minute and 55 seconds. <i>Conclusion:</i> Analysis of PAD patients spontaneous walking characteristics with an activity tracker can get the maximum active walking duration achieved by each patient and be useful to offer a personalised walking rehabilitation program.",
+        "affiliation": "INSERM, U1059-SAINBIOSE, Université Jean Monnet, Mines Saint-Étienne, France.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Intermittent Claudication",
+            "Peripheral Arterial Disease",
+            "Walking",
+            "Activity Tracker"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1024/0301-1526/a001149"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-12-05",
+        "firstIndexDate": "2024-12-06",
+        "dateOfRevision": "2025-01-06",
+        "electronicPublicationDate": "2024-12-05",
+        "firstPublicationDate": "2024-12-05"
+      },
+      {
+        "id": "39373831",
+        "source": "MED",
+        "pmid": "39373831",
+        "pmcid": "PMC11459960",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11459960"
+          ]
+        },
+        "doi": "10.1186/s40635-024-00677-w",
+        "title": "HELLO: a protocol for a cluster randomized controlled trial to enhance interpersonal relationships and team cohesion among ICU healthcare professionals.",
+        "authorString": "Azoulay E, Barnes NK, Nainan-Myatra S, Delgado MM, Arabi Y, Boulanger C, Mistraletti G, Theodorakopoulou M, Van Heerden V, Paiva JA, Demirkýran O, La Calle GH, Al Fares A, Burghi G, Francois G, Barth A, De Waele J, Jaber S, Darmon M, Cecconi M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Azoulay E",
+              "firstName": "Elie",
+              "lastName": "Azoulay",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8162-1508"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care and Intensive Medicine, Paris-Cité University. Saint-Louis Hospital, APHP, Paris, France. elie.azoulay@aphp.fr."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barnes NK",
+              "firstName": "Nancy Kentish",
+              "lastName": "Barnes",
+              "initials": "NK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care and Intensive Medicine, Paris-Cité University. Saint-Louis Hospital, APHP, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nainan-Myatra S",
+              "firstName": "Sheila",
+              "lastName": "Nainan-Myatra",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anaesthesiology, Critical Care and Pain, Tata Memorial Hospital, Homi Bhabha National Institute Mumbai, Mumbai, India."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Delgado MM",
+              "firstName": "Maria-Cruz Martin",
+              "lastName": "Delgado",
+              "initials": "MM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department Intensive Care Medicine Hospital 12 de Octubre. Research Institute \"Hospital 12 de Octubre (imas12)\", Universidad Complutense de Madrid, Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Arabi Y",
+              "firstName": "Yaseen",
+              "lastName": "Arabi",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Department, King Abdullah International Medical Research Center, King Abdulaziz Medical City, Ministry of National Guard Health - Affairs, and College of Medicine, King Saud Bin Abdulaziz University for Health Sciences, Riyadh, Saudi Arabia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Boulanger C",
+              "firstName": "Carole",
+              "lastName": "Boulanger",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Royal Devon University NHS Foundation Trust, Barrack Road, Exeter, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mistraletti G",
+              "firstName": "Giovanni",
+              "lastName": "Mistraletti",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Fisiopatologia medico-chirurgica e dei trapianti. A.S.S.T. Ovest Milanese, Università degli Studi di Milano, Ospedale Civile di Legnano, Legnano, MI, Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Theodorakopoulou M",
+              "firstName": "Maria",
+              "lastName": "Theodorakopoulou",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "First Department of Critical Care and Pulmonary Diseases, Evangelismos General Hospital of Athens, National and Kapodistrian University of Athens, 10676, Athens, Greece."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Van Heerden V",
+              "firstName": "Vernon",
+              "lastName": "Van Heerden",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesiology, Critical Care and Pain Medicine, Faculty of Medicine, Hadassah Medical Center, Hebrew University of Jerusalem, Jerusalem, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Paiva JA",
+              "firstName": "José-Artur",
+              "lastName": "Paiva",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Department, Centro Hospitalar Universitario S. Joao, Faculty of Medicine, University of Porto, Grupo Infecao e Sepsis, Porto, Portugal."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Demirkýran O",
+              "firstName": "Oktay",
+              "lastName": "Demirkýran",
+              "initials": "O",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care, Cerrahpaşa Faculty of Medicine, Istanbul University-Cerrahpaşa, Istanbul, Turkey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "La Calle GH",
+              "firstName": "Gabriel Heras",
+              "lastName": "La Calle",
+              "initials": "GH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "International Research Project for the Humanisation of Intensive Care Units, Proyecto HU-CI, Humanizing Healthcare Foundation. Intensive Care Unit, Hospital Universitario de Jaén, Jaén, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Al Fares A",
+              "firstName": "Abdulrahman",
+              "lastName": "Al Fares",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesia, Critical Care Medicine, and Pain Medicine, Al-Amiri Hospital, Ministry of Health, Kuwait Extracorporeal Life Support Program, Al-Amiri Center for Respiratory and Cardiac Failure, Ministry of Health, Kuwait City, Kuwait."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Burghi G",
+              "firstName": "Gaston",
+              "lastName": "Burghi",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Intensive Care Unit, Hospital Maciel, ASSE-Montevideo, Montevideo, Uruguay."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Francois G",
+              "firstName": "Guy",
+              "lastName": "Francois",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "European Society of Intensive Care Medicine (ESICM), Brussels, Belgium."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barth A",
+              "firstName": "Anita",
+              "lastName": "Barth",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "European Society of Intensive Care Medicine (ESICM), Brussels, Belgium."
+                  },
+                  {
+                    "affiliation": "Faculty of Health Sciences, Department of Nursing and Midwifery, University of Debrecen, Debrecen, Hungary."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Waele J",
+              "firstName": "Jan",
+              "lastName": "De Waele",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care Medicine, Ghent University Hospital, Department of Internal Medicine and Pediatrics, Faculty of Medicine and Health Sciences, Ghent University, Ghent, Belgium."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jaber S",
+              "firstName": "Samir",
+              "lastName": "Jaber",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Anesthesia and Intensive Care unit, Regional University Hospital of Montpellier, St-Eloi Hospital, University of Montpellier, CEDEX 5, France; PhyMedExp, University of Montpellier, INSERM U1046, CNRS UMR, 9214, Montpellier, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Darmon M",
+              "firstName": "Michael",
+              "lastName": "Darmon",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Intensive Care and Intensive Medicine, Paris-Cité University. Saint-Louis Hospital, APHP, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cecconi M",
+              "firstName": "Maurizio",
+              "lastName": "Cecconi",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Sciences, Humanitas University, Via Levi Montalcini, Pieve Emanuele, MI. 2IRCCS Humanitas Research Hospital, Via Manzoni 56, Rozzano, Milan, 20089, Italy."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8162-1508"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "12",
+          "journalIssueId": 3833870,
+          "dateOfPublication": "2024 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-10-01",
+          "journal": {
+            "title": "Intensive care medicine experimental",
+            "medlineAbbreviation": "Intensive Care Med Exp",
+            "essn": "2197-425X",
+            "issn": "2197-425X",
+            "isoabbreviation": "Intensive Care Med Exp",
+            "nlmid": "101645149"
+          }
+        },
+        "pubYear": "2024",
+        "pageInfo": "90",
+        "abstractText": "<h4>Background</h4>Mental health symptoms among healthcare professionals (HCP) in intensive care units (ICUs) are a significant concern affecting both HCP well-being and patient care outcomes. Cross-sectional studies among members of the European Society of Intensive Care Medicine (ESICM) report up to 50% burnout rates. Determinants of burnout include communication, team cohesion, psychological support, and well-being promotion. We designed the 'Hello Bundle' intervention to mitigate burnout among ICU-HCPs by fostering positive social interactions and a supportive work environment. This justification synthesizes evidence from social psychology, positive psychology, and healthcare communication research to support the intervention. The 'Hello Bundle' aims to enhance interpersonal relationships, improve team cohesion, and reduce burnout rates. The six components include: Hello campaign posters, email reminders, integrating greetings in morning huddles, hello jars, lead-by-example initiatives, and a daily updated hello board in each ICU. This protocol describes a cluster randomized controlled trial to evaluate the effectiveness of the intervention.<h4>Methods</h4>This protocol describes a cluster randomized controlled trial (RCT) conducted among ESICM-affiliated ICUs, consisting of at least 73 clusters with in average of 50 respondents per cluster, totaling approximately 7300 participants. Intervention clusters will implement the 6-component Hello Bundle between October 14 and November 10, 2024, while control clusters will be wait-listed to receive the intervention in January 2025 after the RCT concludes. Clusters will be matched based on ICU size (fewer or more than 20 beds), region, and average 2023 mortality. The primary outcome is the proportion of HCPs with burnout between intervention and control clusters at the end of the intervention. Secondary outcomes include comparing the following between clusters: (1) number of HCPs with high emotional exhaustion; (2) number with high depersonalization; (3) number with loss of accomplishment; (4) perception of ethical climate (5) satisfaction at work (VAS); (6) professional conflicts; (7) intention to leave the ICU (VAS); (8) patient-centered care rating; (9) family-centered care rating. The last secondary outcome is the comparison of burnout rates before and after the intervention in the intervention cluster. Outcomes will be based on HCP reports collected within four weeks before and after the intervention.<h4>Discussion</h4>This is the first large trial of healthcare communication, social, and positive psychology intervention among ICU-HCPs. It holds the potential to provide valuable insights into effective strategies for addressing burnout in ICU settings, ultimately benefiting both HCPs and patients.<h4>Trial registration</h4>This trial was registered on ClinicalTrials.Gov on June 18, 2024.<h4>Registration</h4>NCT06453616.",
+        "affiliation": "Department of Intensive Care and Intensive Medicine, Paris-Cité University. Saint-Louis Hospital, APHP, Paris, France. elie.azoulay@aphp.fr.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Psychology",
+            "Mental health",
+            "Nurses",
+            "Burnout",
+            "Shortage"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s40635-024-00677-w"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11459960"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11459960?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "39776054",
+              "source": "MED",
+              "reference": "Intensive Care Med Exp. 2025 Jan 7;13(1):2. doi: 10.1186/s40635-024-00702-y",
+              "type": "Erratum in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "citedByCount": 0,
+        "hasData": "Y",
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "license": "cc by",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2024-10-07",
+        "firstIndexDate": "2024-10-09",
+        "fullTextReceivedDate": "2024-10-29",
+        "dateOfRevision": "2025-01-09",
+        "electronicPublicationDate": "2024-10-07",
+        "firstPublicationDate": "2024-10-07"
+      },
+      {
+        "id": "PMC11703156",
+        "source": "PMC",
+        "pmcid": "PMC11703156",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11703156"
+          ]
+        },
+        "title": "Dendritic cells type 1 control the formation, maintenance, and function of tertiary lymphoid structures in cancer",
+        "journalInfo": {
+          "journalIssueId": 3864022,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "printPublicationDate": "2024-12-01",
+          "journal": {
+            "title": "bioRxiv : the preprint server for biology",
+            "medlineAbbreviation": "bioRxiv",
+            "essn": "2692-8205",
+            "issn": "2692-8205",
+            "isoabbreviation": "bioRxiv",
+            "nlmid": "101680187"
+          }
+        },
+        "pubYear": "2024",
+        "language": "eng",
+        "pubModel": "Undetermined",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11703156/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "PubMedCentral",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11703156/pdf/?tool=EBI"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11703156"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11703156?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "citedByCount": 0,
+        "hasData": "N",
+        "hasReferences": "N",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "license": "cc by-nc-nd",
+        "hasEvaluations": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2025-01-08",
+        "firstIndexDate": "2025-01-08",
+        "fullTextReceivedDate": "2025-01-08",
+        "dateOfRevision": "2025-01-10",
+        "electronicPublicationDate": "2024-12-27",
+        "firstPublicationDate": "2024-12-27"
+      }
+    ]
+  }
+}
