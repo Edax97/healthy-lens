@@ -16,7 +16,7 @@ const feedUrl = (actor: string, limit: number) => `https://public.api.bsky.app/x
 export const scrapFeed = api<PostSearchParams, Feed>(
     {path: '/posts/feed', method: 'GET', expose: true},
     async ({did}) => {
-        const feedRes = await fetch(feedUrl(did, 100));
+        const feedRes = await fetch(feedUrl(did, 20));
         return ParseFeed.toFeed(await feedRes.text());
     }
 )

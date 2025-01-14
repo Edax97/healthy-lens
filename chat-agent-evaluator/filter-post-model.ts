@@ -30,7 +30,7 @@ const response_format: ResponseFormatJSONSchema = {
                     "items": {
                         "type": "object",
                         "properties": {
-                            "claim": {
+                            "body": {
                                 "type": "string",
                                 "description": "A conservative summary of the original claim, at most 50 words"
                             },

@@ -1,9 +1,8 @@
-import {filter_model_definition} from "../chat-agent-evaluator/filter-post-model";
 import {
     ChatCompletionMessageParam,
-    ChatCompletion
+    ChatCompletion, ChatCompletionMessage
 } from "openai/resources/chat/completions";
-import {fetchSources} from "../chat-agent-evaluator/get_sources_call";
+import {CallArguments, fetchSources} from "../chat-agent-evaluator/get_sources_call";
 import {
     openai,
     function_results_message,
@@ -12,9 +11,7 @@ import {
 import {Post} from "../posts-service/user-scrapper";
 
 interface ResponseReview {
-    content: string;
-    date: string;
-    url: string;
+    id: number;
     validation: number;
     summary: string;
     detailed_review: string;
@@ -26,67 +23,55 @@ interface ResponseReview {
 }
 
 export const reviewPostBatch = async (
-    posts: Post[], batch_items: number): Promise<ResponseReview[]> => {
-    const filterResponse = await openai.chat
-        .completions.create(filter_model_definition([
-            {
-                role: "user",
-                content: JSON.stringify(posts)
-            }
-        ])) as ChatCompletion;
-    const postsFiltered: Post[] = JSON.parse(filterResponse.choices[0].message.content).schema;
-    if (!postsFiltered) return null;
+    posts: Post[], batch_index: number, batch_size: number): Promise<ResponseReview[]> => {
     const user_messages: ChatCompletionMessageParam = {
         role: "user",
-        content: JSON.stringify(postsFiltered.map(p =>
-            ({claim: p.body, date: p.date, url: p.url})
+        content: JSON.stringify(posts.map((p, i) =>
+            ({
+                claim: p.body, date: p.date,
+                url: p.url, id: batch_index * batch_size + i
+            })
         ))
     };
     const toolResponse = await openai.chat.completions
         .create(completion_definition([
             user_messages
-        ], batch_items)) as ChatCompletion;
-    const assistant_function_calls = [];
-    const sources_params = toolResponse.choices.map((choice: ChatCompletion.Choice) => {
-        if (!choice.message.tool_calls) return null;
-        const {search_term} = JSON.parse(choice.message.tool_calls[0].function.arguments);
-        if (!search_term) return null;
-        assistant_function_calls.push(choice.message);
-        return ({
-            search_term,
-            call_id: choice.message.tool_calls[0].id
-        });
-    }).filter(i => i !== null);
+        ], 1)) as ChatCompletion;
+    const tool_message: ChatCompletionMessage = toolResponse.choices[0].message;
+    const function_calls = tool_message.tool_calls.map(call => ({
+        call_arguments: JSON.parse(call.function.arguments) as CallArguments,
+        call_id: call.id
+    })).filter(call => (call.call_arguments && call.call_arguments.search_term != ''));
     // api to pmc europe
-    const tool_messages = [];
-    for await (const param of sources_params) {
-        const post_context = await fetchSources(param.search_term, '');
-        tool_messages.push(function_results_message(post_context, param.call_id));
+    const function_messages = [];
+    for await (const call of function_calls) {
+        const post_context = await fetchSources(
+            call.call_arguments.search_term, '');
+        if (post_context) {
+            function_messages.push(function_results_message(post_context, call.call_id));
+        }
     }
-    const sources = await fetchSources('', '');
-
     // query completion model for analysis
     const reviewOfPosts = (await openai.chat.completions
         .create(completion_definition([
             user_messages,
-            ...assistant_function_calls,
-            ...tool_messages
-        ], batch_items))) as ChatCompletion;
-    const choices = reviewOfPosts.choices as ChatCompletion.Choice[];
-
-    return choices.map<ResponseReview>((choice: ChatCompletion.Choice) => {
-        const review = JSON.parse(choice.message.content) as ResponseReview;
-        if (!review.validation) return null;
-        return review;
-    }).filter(i => i !== null);
+            tool_message,
+            ...function_messages
+        ], 1))) as ChatCompletion;
+    const reviewContent = reviewOfPosts.choices[0].message.content;
+    const reviewResponse = JSON.parse(reviewContent) as { "schema": ResponseReview[] };
+    return reviewResponse.schema.filter(r => r?.validation);
 }
 
 export const reviewAllPosts = async (posts: Post[], batch_size: number): Promise<ResponseReview[]> => {
-    const allReviews: ResponseReview[] = [];
+    //const allReviews: ResponseReview[] = [];
+    const batchList = [];
     for (let i = 0; i < posts.length; i = i + batch_size) {
         const batch = posts.slice(0, i + batch_size);
-        const reviews = await reviewPostBatch(batch, batch_size);
-        allReviews.push(...reviews);
+        batchList.push(batch);
+        //const reviews = await reviewPostBatch(batch);
+        //allReviews.push(...reviews);
     }
-    return allReviews;
+    const allReviews = await Promise.all(batchList.map(((b, i) => reviewPostBatch(b, i, batch_size))))
+    return allReviews.flat();
 }

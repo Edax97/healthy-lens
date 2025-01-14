@@ -5,6 +5,6 @@ encore.gen.cue
 node_modules
 /encore.gen
 pinecode-credential.json
-.env
+/.env
 gpt-chat.js
 post-generator.js

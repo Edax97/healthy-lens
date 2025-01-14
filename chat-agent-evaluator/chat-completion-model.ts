@@ -41,17 +41,9 @@ const response_format: ResponseFormatJSONSchema = {
                     "items": {
                         "type": "object",
                         "properties": {
-                            "content": {
+                            "id": {
                                 "type": "string",
-                                "description": "The original claim"
-                            },
-                            "date": {
-                                "type": "string",
-                                "description": "Date of the claim, provided by the user"
-                            },
-                            "url": {
-                                "type": "string",
-                                "description": "URL of the claim original post, provided by the user"
+                                "description": "The user defined claim id"
                             },
                             "validation": {
                                 "type": "number",
@@ -98,14 +90,12 @@ const response_format: ResponseFormatJSONSchema = {
                             }
                         },
                         "required": [
+                            "id",
                             "validation",
                             "summary",
                             "detailed_review",
                             "topic",
                             "references",
-                            "content",
-                            "date",
-                            "url"
                         ],
                         "additionalProperties": false
                     }
@@ -167,14 +157,19 @@ export const completion_definition = (messages: ChatCompletionMessageParam[], n:
         messages: [
             {
                 "role": "developer",
-                "content": "You're an expert research assistant that checks the veracity of a list of medical claims, based on the information returned by the function get_single_claim_sources.\n-  Each claim will be an item inside the array provided by the user.\n- Reference the contextual sources considered in your evaluations. \n-  Be rigorous but fair. Answer with \"Could not reach a veredict\" within summary field if it's not possible to reach a conclusion based on the provided document sources.\n-  For each claim provided, generate an evaluation up to 80 words, a summary of such evaluation up to 25 words, and a validation score from 1 to 4 (greater is better). It's imperative you include evaluations for each user message.\n\n"
+                "content": "You're an expert research assistant that checks the veracity of a list of medical claims, based on the information returned by the function get_single_claim_sources." +
+                    "\n-  Only evaluate of falsifiable medical-related claims" +
+                    "\n- Each claim will be an item inside the array provided by the user." +
+                    "\n- Reference the contextual sources considered in your evaluations. " +
+                    "\n-  Be rigorous but fair. Answer with \"Could not reach a veredict\" within summary field if it's not possible to reach a conclusion based on the provided document sources." +
+                    "\n-  For each claim provided, generate an evaluation up to 100 words, a summary of such evaluation up to 25 words, and a validation score from 1 to 4 (greater is better). "
             },
-            ...messages
+            ...messages,
         ],
         response_format,
         tools,
         n,
         max_completion_tokens: 16000,
         temperature: 0.65
-    });
-}
+    })
+};

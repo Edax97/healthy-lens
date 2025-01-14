@@ -63,7 +63,7 @@ export interface Result {
     dateOfCreation: Date;
     firstIndexDate: Date;
     fullTextReceivedDate?: Date;
-    firstPublicationDate: Date;
+    firstPublicationDate: string;
     pmid?: string;
     journalInfo?: JournalInfo;
     pageInfo?: string;

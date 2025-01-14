@@ -20,14 +20,18 @@ export const discoverUser = api<DiscoverParams, ProfilePostsResponse>(
 
         /* review all posts in batches invoking openai chat models */
         const postsReviews = await reviewAllPosts(feed, 10);
-        const posts: PostReviewed[] = postsReviews.map(review => {
-            const {references, ...rest} = review;
+        const posts: PostReviewed[] = postsReviews.map(((review, j) => {
+            const {references, id, ...rest} = review;
+            const {url, body: content, date} = feed[review.id];
             return ({
                 user_did: did,
                 referencesJSON: JSON.stringify(references),
+                url,
+                content,
+                date,
                 ...rest
             })
-        });
+        }));
         /* infer user average reliability (from posts' validation score) and topic list*/
         const reliability = calculateAverageValidation(posts);
         const last_scanned = new Date().toISOString();
